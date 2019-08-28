@@ -1,39 +1,39 @@
-# Desafio 02. 
+# Challenge 02. 
 
-Crie uma aplicação do zero utilizando Express.
+Create an application from scratch using Express.
 
-Nessa aplicação configure as seguintes ferramentas:
+In this application configure the following tools:
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
-- Sequelize (Utilize PostgresSQL ou MySQL);
+- Sequelize (Use PostgresSQL or MySQL);
 
-Durante esse desafio você dará início a um novo projeto no Bootcamp, esse projeto será desenvolvido aos poucos até o fim da sua jornada onde você terá uma aplicação completa envolvendo back-end, front-end e mobile.
+During this challenge you will start a new project in Bootcamp, this project will be developed gradually until the end of your journey where you will have a complete application involving backend, frontend and mobile.
 
-Esse projeto também será utilizado para a certificação do bootcamp, então bora pro código!
+This project will also be used for bootcamp certification, so let's go for the code!
 
-## Aplicação
+## Aplication
 
-A aplicação que iremos dar início ao desenvolvimento a partir de agora é um app agregador de eventos para desenvolvedores chamado Meetapp (um acrônimo à Meetup + App).
+The application we will start development from now on is a developer event aggregator app called Meetapp (an acronym for Meetup + App).
 
-Nesse primeiro desafio vamos criar algumas funcionalidades básicas que aprendemos ao longo das aulas até aqui.
+In this first challenge we will create some basic functionality that we have learned throughout the classes so far.
 
-## Funcionalidades
+## Functionalities
 
-Abaixo estão descritas as funcionalidades que você deve adicionar em sua aplicação.
+Below are the features you should add to your application.
 
-### Autenticação
+### Authentication
 
-Permita que um usuário se autentique em sua aplicação utilizando e-mail e senha.
+Allow a user to authenticate to your application using email and password.
 
-- A autenticação deve ser feita utilizando JWT.
-- Realize a validação dos dados de entrada;
+- Authentication must be done using JWT.
+- Perform input data validation;
 
-### Cadastro e atualização de usuários
+### Registering and Updating Users
 
-Permita que novos usuários se cadastrem em sua aplicação utilizando nome, e-mail e senha.
+Allow new users to sign up for your application using name, email and password.
 
-Para atualizar a senha, o usuário deve também enviar um campo de confirmação com a mesma senha.
+To update the password, the user must also submit a confirmation field with the same password.
 
-- Criptografe a senha do usuário para segurança.
-- Realize a validação dos dados de entrada;
+- Encrypt the user's password for security.
+- Perform input data validation;
