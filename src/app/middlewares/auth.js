@@ -19,6 +19,6 @@ export default async (req, res, next) => {
     req.userId = decoded.id;
     return next();
   } catch (err) {
-    return res.status(400).json(err);
+    return res.status(400).json({ error: 'Token not provided' });
   }
 };
